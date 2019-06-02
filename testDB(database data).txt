@@ -1,0 +1,112 @@
+
+user schema
+
+{
+    "data": [
+        {
+            "_id": "5cd6b1aca4c40c4188561cb7",
+            "fullname": "Sarath Gamage",
+            "email": "sarath@gmail.com",
+            "nic": "619899078V",
+            "empStatus": "Government",
+            "password":"sarath"
+           
+        },
+         {
+            "_id": "5cd6bcada4c40c4188561cc0",
+            "fullname": "Champika Gamage",
+            "email": "champi@gmail.com",
+            "nic": "617691264V",
+            "empStatus": "private",
+            "password":"sarath"
+           
+        },
+         {
+            "_id": "5cdea3d6de0d8442908d5eda",
+            "fullname": "Vinu Gamage",
+            "email": "sahanigamage@gmail.com",
+            "nic": "985011214V",
+            "empStatus": "private",
+            "password":"vinu"
+           
+        }
+    ]
+}
+
+
+trains schema
+
+{
+    "data": [
+        {
+            "_id": "5cdeeaed8a7c10b38e7f6636",
+            "trainName": "Udarata Manike",
+            "source": "Colombo",
+            "destination": "Kandy",
+            "departure": "08:00 AM",
+            "ticketAmount": "450",
+            "availableTickets": "100"
+        },
+        {
+            "_id": "5cdeeaf38a7c10b38e7f6637",
+            "trainName": "Yal Devi",
+            "source": "Colombo",
+            "destination": "Jaffna",
+            "departure": "08:00 AM",
+            "ticketAmount": "520",
+            "availableTickets": "100"
+        },
+        {
+            "_id": "5cdeec028a7c10b38e7f6638",
+            "trainName": "Rajarata",
+            "source": "Matara",
+            "destination": "Colombo",
+            "departure": "08:00 AM",
+            "ticketAmount": "350",
+            "availableTickets": "98"
+        }
+    ]
+}
+
+traintickets schema
+
+{
+    "data": [
+        {
+            "_id": "5cdefb115863985aa0304340",
+            "trainName": "Rajarata",
+            "tickets": "1",
+            "nic": "985011214V",
+            "empStatus": "private",
+            "paymentAmount": "350",
+            "paymentMethod": "dialog"
+        },
+        {
+            "_id": "5cdefb115863985aa0304344",
+            "trainName": "Rajarata",
+            "tickets": "1",
+            "nic": "619899078V",
+            "empStatus": "Government",
+            "paymentAmount": "315",
+            "paymentMethod": "dialog"
+        }
+    ]
+}
+
+dialogPayment schema
+
+{
+    "data": [
+        {
+            "_id": "5cdefd6c5863985aa0304341",
+            "mobile": "0773184518",
+            "pin": "1234",
+            "nic": "985011214V",
+            "paymentAmount": "350",
+            "email":"sahanigamage@gmail.com"
+           
+        }
+    ]
+}
+
+sampathPayment schema
